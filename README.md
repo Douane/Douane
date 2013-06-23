@@ -1,4 +1,8 @@
-# Douane
+<p align="center">
+  <img src="https://raw.github.com/zedtux/gpair/master/media/developpeur_breton_logo.png" alt="Je suis un developpeyr Breton!"/>
+</p>
+
+# Douane [![endorse](http://api.coderwall.com/zedtux/endorsecount.png)](http://coderwall.com/zedtux)
 
 Douane is a firewall that filter and limit the outgoing network traffic per application.
 
