@@ -22,7 +22,7 @@ Written in C it use [Netfilter](http://www.netfilter.org/) to watch the network 
 
 This is the brain of Douane as it will ask you and remind your decisions to allow/deny network traffic.
 
-Written in C++ it provide a [D-Bus](dbus.freedesktop.org/) server that I'm describing here, a [GTK 3](http://www.gtk.org/) part to ask you when an unknown application is sending network packets written with [gtkmm 3](http://www.gtkmm.org/) and [boost](http://www.boost.org/) to clue some parts.
+Written in C++ it provide a [D-Bus](dbus.freedesktop.org/) server that I will describe soon, a [GTK 3](http://www.gtk.org/) part to ask you when an unknown application is sending network packets written with [gtkmm 3](http://www.gtkmm.org/) and [boost](http://www.boost.org/) to clue some parts.
 
 #### Configurator
 
