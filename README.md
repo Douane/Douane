@@ -48,3 +48,17 @@ If you found a bug or have an idea to improve Douane your input is more than wel
 ### Licencing
 
 As of today the Douane kernel module and daemon process are closed source but the configurator is open source. Also the D-Bus server should give you access to a lot of information that could help you in building new application based on filtered out-going traffic.
+
+### Dependencies
+
+**LKM:**
+
+    dkms linux-headers-`uname -r`
+
+**Daemon:**
+
+    liblog4cxx10-dev libboost-filesystem-dev libboost-regex-dev libboost-signals-dev libgtkmm-3.0-dev libdbus-c++-dev libdbus-1-dev
+
+**Configurator:**
+
+    gksu
