@@ -40,6 +40,11 @@ If you found a bug or have an idea to improve Douane your input is more than wel
 
 [Fill in a new Github issue](https://github.com/zedtux/Douane/issues/new) in this project and I will have a look at it.
 
+
+**For the first release the application I didn't implemented so much features in order to keep it simple as possible in order to focus more on the stability of the application.
+
+Now that the application is quite stable (let's see for bug report) I can implement new features so do not hesitate to ask!!**
+
 ### Licencing
 
 As of today the Douane kernel module and daemon process are closed source but the configurator is open source. Also the D-Bus server should give you access to a lot of information that could help you in building new application based on filtered out-going traffic.
