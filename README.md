@@ -30,7 +30,7 @@ Written in C++ it provide a [D-Bus](dbus.freedesktop.org/) server that I will de
 
 #### Configurator
 
-Finally the configurator allow you to edit the configuration (rules, load on boot, ...).
+Finally [the configurator](https://github.com/zedtux/douane-configurator) allow you to edit the configuration (rules, load on boot, ...).
 
 ![Douane - Configurator](https://pbs.twimg.com/media/BNdVVAOCQAI8CRr.png:large)
 
