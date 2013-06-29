@@ -53,6 +53,16 @@ If you found a bug or have an idea to improve Douane your input is more than wel
 
 As of today the Douane kernel module and daemon process are closed source but the configurator is open source (https://github.com/zedtux/douane-configurator). Also the D-Bus server should give you access to a lot of information that could help you in building new application based on filtered out-going traffic.
 
+### Download
+
+As of today the application is not ready for production only for testing.
+
+You can use it at your risks.
+
+#### Debian (amd64)
+
+https://github.com/zedtux/Douane/blob/master/packages/debian/douane_0.1.0_amd64.deb?raw=true
+
 ### Dependencies
 
 **LKM:**
