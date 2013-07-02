@@ -59,10 +59,11 @@ As of today the application is not ready for production only for testing.
 
 You can use it at your risks.
 
-#### Debian (amd64)
+#### Debian/Ubuntu
 
- - https://github.com/zedtux/Douane/blob/master/packages/debian/douane_0.1.1_amd64.deb?raw=true
- - https://github.com/zedtux/Douane/blob/master/packages/debian/douane_0.1.0_amd64.deb?raw=true
+You can find all the package for Debian and Ubuntu (amd64) at:
+
+ https://github.com/zedtux/Douane/tree/master/packages
 
 ### Dependencies
 
@@ -76,4 +77,4 @@ You can use it at your risks.
 
 **Configurator:**
 
-    gksu
+    gksu python3-dbus
