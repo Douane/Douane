@@ -61,7 +61,8 @@ You can use it at your risks.
 
 #### Debian (amd64)
 
-https://github.com/zedtux/Douane/blob/master/packages/debian/douane_0.1.0_amd64.deb?raw=true
+ - https://github.com/zedtux/Douane/blob/master/packages/debian/douane_0.1.0_amd64.deb?raw=true
+ - https://github.com/zedtux/Douane/blob/master/packages/debian/douane_0.1.1_amd64.deb?raw=true
 
 ### Dependencies
 
