@@ -14,7 +14,7 @@ When Douane is started it will watch the ougoing network traffic and as soon as 
 
 ![Douane - Question window](https://pbs.twimg.com/media/BNIv_V2CEAAPPyi.png:large)
 
-The application is composed of 3 parts written in different programmtion languages.
+The application is composed of 3 parts written in different programming languages.
 
 #### Linux kernel module
 
