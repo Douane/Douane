@@ -53,28 +53,10 @@ If you found a bug or have an idea to improve Douane your input is more than wel
 
 As of today the Douane kernel module and daemon process are closed source but the configurator is open source (https://github.com/zedtux/douane-configurator). Also the D-Bus server should give you access to a lot of information that could help you in building new application based on filtered out-going traffic.
 
-### Download
+### Install
 
 As of today the application is not ready for production only for testing.
 
 You can use it at your risks.
 
-#### Debian/Ubuntu
-
-You can find all the package for Debian and Ubuntu (amd64) at:
-
- https://github.com/zedtux/Douane/tree/master/packages
-
-### Dependencies
-
-**LKM:**
-
-    dkms linux-headers-`uname -r`
-
-**Daemon:**
-
-    liblog4cxx10-dev libboost-filesystem-dev libboost-regex-dev libboost-signals-dev libgtkmm-3.0-dev libdbus-c++-dev libdbus-1-dev
-
-**Configurator:**
-
-    gksu python3-dbus
+Follow the steps at http://douaneapp.com#download
