@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://raw.github.com/zedtux/gpair/master/media/developpeur_breton_logo.png" alt="Je suis un developpeyr Breton!"/>
+  <a href="http://blog.zedroot.org/" target="_blank">
+    <img src="https://raw.github.com/zedtux/gpair/master/media/developpeur_breton_logo.png" alt="Je suis un developpeyr Breton!"/>
+  </a>
 </p>
 
 # Douane [![endorse](http://api.coderwall.com/zedtux/endorsecount.png)](http://coderwall.com/zedtux)
