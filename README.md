@@ -61,4 +61,4 @@ The entire project is 100% open source under the GPL v2 licence.
 
 ### Install
 
-I'm writting the documentation in the wiki.
+You can find the compilation/installation instruction in [the wiki](/Douane/Douane/wiki).
