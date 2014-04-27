@@ -12,23 +12,27 @@ You can allow network traffic for some applications and deny network traffic for
 
 ### How it is working
 
-When Douane is started it will watch the ougoing network traffic and as soon as an unknown application generate some traffic Douane will block it and ask you if you allow it or not:
+When Douane is started, it will watch the ougoing network traffic and as soon as an unknown application tries to send some network packets, Douane will block it and ask you if you allow it or not:
 
 ![Douane - Question window](https://pbs.twimg.com/media/BNIv_V2CEAAPPyi.png:large)
 
-The application is composed of 3 parts written in different programming languages.
+The application is composed of multiple parts written in different programming languages.
 
 #### Linux kernel module
 
 The [Linux Kernel Module](https://en.wikipedia.org/wiki/Loadable_kernel_module) is the heart of Douane as it will catch outgoing network packets and find owning application.
 
-Written in C it use [Netfilter](http://www.netfilter.org/) to watch the network traffic.
+Written in C, it use [Netfilter](http://www.netfilter.org/) to watch the network traffic.
 
 #### Daemon process
 
 This is the brain of Douane as it will ask you and remind your decisions to allow/deny network traffic.
 
-Written in C++ it provide a [D-Bus](dbus.freedesktop.org/) server that I will describe soon, a [GTK 3](http://www.gtk.org/) part to ask you when an unknown application is sending network packets written with [gtkmm 3](http://www.gtkmm.org/) and [boost](http://www.boost.org/) to clue some parts.
+Written in C++, it provide a [D-Bus](dbus.freedesktop.org/) server in order to communicate with the other parts.
+
+#### Dialog processes
+
+The dialog process is the window which is appearing when an unknown activity has been detected. It is written in [GTK 3](http://www.gtk.org/) for the official project.
 
 #### Configurator
 
@@ -53,12 +57,8 @@ If you found a bug or have an idea to improve Douane your input is more than wel
 
 ### Licencing
 
-As of today the Douane kernel module and daemon process are closed source but the configurator is open source (https://github.com/zedtux/douane-configurator). Also the D-Bus server should give you access to a lot of information that could help you in building new application based on filtered out-going traffic.
+The entire project is 100% open source under the GPL v2 licence.
 
 ### Install
 
-As of today the application is not ready for production only for testing.
-
-You can use it at your risks.
-
-Follow the steps at http://douaneapp.com#download
+I'm writting the documentation in the wiki.
