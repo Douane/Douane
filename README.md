@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Douane [![endorse](http://api.coderwall.com/zedtux/endorsecount.png)](http://coderwall.com/zedtux)
+# Douane
 
 Douane is a firewall that filter and limit the outgoing network traffic per application.
 
