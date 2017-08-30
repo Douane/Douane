@@ -24,15 +24,21 @@ The [Linux Kernel Module](https://en.wikipedia.org/wiki/Loadable_kernel_module) 
 
 Written in C, it use [Netfilter](http://www.netfilter.org/) to watch the network traffic.
 
+The Github repository URL is https://github.com/Douane/douane-dkms.
+
 #### Daemon process
 
 This is the brain of Douane as it will ask you and remind your decisions to allow/deny network traffic.
 
 Written in C++, it provide a [D-Bus](dbus.freedesktop.org/) server in order to communicate with the other parts.
 
+The Github repository URL is https://github.com/Douane/douane-daemon.
+
 #### Dialog processes
 
 The dialog process is the window which is appearing when an unknown activity has been detected. It is written in [GTK 3](http://www.gtk.org/) for the official project.
+
+The Github repository URL of the Douane version is https://github.com/Douane/douane-dialog. (The dialog process could be written in any languages, for any UI, until it follows the D-Bus implementation).
 
 #### Configurator
 
@@ -42,7 +48,7 @@ Finally [the configurator](https://github.com/zedtux/douane-configurator) allow 
 
 The configuration is written in [python 3](http://www.python.org/) and GTK 3 using [PyGObject](https://live.gnome.org/PyGObject), is open source and is an interface to the D-Bus server provided by the daemon process.
 
-The twitter area on the right is my [GtkTwitterBox](https://github.com/zedtux/gtktwitterbox).
+The Github repository URL is https://github.com/Douane/douane-configurator. (The configurator process could be written in any languages, for any UI, until it follows the D-Bus implementation).
 
 ### Feature requests and Bug reporting
 
