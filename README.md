@@ -22,6 +22,8 @@ The application is composed of multiple parts written in different programming l
 
 This project is divided in multiple peaces in order to get it very flexible. In the following sections, the Git repository of the described part is available in the last line.
 
+If you want to get more information about the Douane architecture, you can have a look to [the Architecture Wiki page](https://github.com/Douane/Douane/wiki/Architecture).
+
 #### Linux kernel module
 
 The [Linux Kernel Module](https://en.wikipedia.org/wiki/Loadable_kernel_module) is the heart of Douane as it will catch outgoing network packets and find owning application.
