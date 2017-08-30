@@ -18,6 +18,10 @@ When Douane is started, it will watch the ougoing network traffic and as soon as
 
 The application is composed of multiple parts written in different programming languages.
 
+#### Architecture
+
+This project is divided in multiple peaces in order to get it very flexible. In the following sections, the Git repository of the described part is available in the last line.
+
 #### Linux kernel module
 
 The [Linux Kernel Module](https://en.wikipedia.org/wiki/Loadable_kernel_module) is the heart of Douane as it will catch outgoing network packets and find owning application.
