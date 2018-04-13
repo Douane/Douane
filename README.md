@@ -56,6 +56,22 @@ The configuration is written in [python 3](http://www.python.org/) and GTK 3 usi
 
 The Github repository URL is https://github.com/Douane/douane-configurator. (The configurator process could be written in any language, for any UI, as long as it follows the D-Bus implementation).
 
+### What is supported
+
+The Linux Kernel Module use NetFilter in order to catch the network packets before there are routed. Any packets going through this module are watched by Douane.
+Douane is an application firewall preventing unknown applications to send data, so it is outgoing only (as of now) direction. It is simply filtering **userspace** application network traffic based on simple allow/deny rules.
+An iptable firewall could be added to dounae in the future. 
+
+**Supported :**
+- Any outgoing connection generate by application/library
+- Protocols : All (same as NetFilter)
+- Direction : Outgoing - Listening
+
+**Not Supported :**
+- Non userspace connections : netbios/etc... (Kernel)
+- Iptables (not used by douane, but it is recommanded to use it side by side with douane)
+- Direction : Incoming (use iptables for that)
+
 ### Feature requests and Bug reporting
 
 If you found a bug or have an idea to improve Douane your input is more than welcome!
