@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://blog.zedroot.org/" target="_blank">
-    <img src="https://raw.github.com/zedtux/gpair/master/media/developpeur_breton_logo.png" alt="Je suis un developpeyr Breton!"/>
+    <img src="https://gitlab.com/zedtux/gpair/raw/master/media/developpeur_breton_logo.png" alt="Je suis un developpeyr Breton!"/>
   </a>
 </p>
 
